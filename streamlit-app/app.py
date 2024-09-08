@@ -13,7 +13,7 @@ pipeline = pipeline(task="image-classification", model="cm600/fashion_classifier
 
 st.title("Fashion Image Classification")
 
-file_name = st.file_uploader("Upload a fashion image to view its top 5 predicted probabilities for each of the following categories: \
+file_name = st.file_uploader("Upload a Fashion-MNIST image to view its top 5 predicted probabilities for each of the following categories: \
                               T-shirt/top, Trouser, Pullover, Dress, Coat, Sandal, Shirt, Sneaker, Bag, Ankle boot.")
 
 if file_name is not None:
